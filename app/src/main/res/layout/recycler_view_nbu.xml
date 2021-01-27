@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/linear_layout_recycler_view"
+    android:orientation="horizontal"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp">
+
+    <TextView
+        android:id="@+id/name_currency"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Доллар США"
+        android:layout_gravity="center"
+        android:textSize="@dimen/text_size_recycler_view"
+        android:layout_weight="1"
+        android:paddingLeft="@dimen/distance"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="end"
+        android:paddingRight="@dimen/distance">
+
+        <TextView
+            android:id="@+id/price_UAH"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="26.31UAH"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/currency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1UAH"
+            android:alpha="0.5"
+            android:textSize="@dimen/text_size_recycler_view"/>
+
+    </LinearLayout>
+
+</LinearLayout>

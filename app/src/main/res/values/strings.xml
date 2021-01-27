@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Курс валют</string>
+    <string name="privat_bank">ПриватБанк</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="private_bank">ПриватБанк</string>
+    <string name="currency">Валюта</string>
+    <string name="purchase">Покупка</string>
+    <string name="sale">Продажа</string>
+    <string name="nbu">НБУ</string>
+</resources>

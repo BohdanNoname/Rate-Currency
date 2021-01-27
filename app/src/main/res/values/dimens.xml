@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="header_bank_text_size">22sp</dimen>
+    <dimen name="calendar_icon_size">33dp</dimen>
+    <dimen name="distance">16dp</dimen>
+    <dimen name="currency_text_size">25sp</dimen>
+    <dimen name="text_size_recycler_view">22sp</dimen>
+</resources>

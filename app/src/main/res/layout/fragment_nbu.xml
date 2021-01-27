@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_layout_nbu"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nedashkovskiy.rate.fragment.NbuFragment"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingRight="@dimen/distance"
+        android:paddingLeft="@dimen/distance">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/nbu"
+            android:textSize="@dimen/header_bank_text_size"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/date_image_view"
+            android:layout_width="@dimen/calendar_icon_size"
+            android:layout_height="@dimen/calendar_icon_size"
+            android:layout_marginRight="@dimen/distance"
+            android:src="@drawable/calendar_icon" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:textSize="@dimen/header_bank_text_size"
+            android:text="01.01.2015"
+            android:textColor="@color/yellow"
+            android:clickable="true"
+            android:focusable="true" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_currency_nbu"
+        android:layout_marginTop="@dimen/distance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
